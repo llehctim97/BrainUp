@@ -1,0 +1,11 @@
+{
+    "android": {
+        "release": {
+            "keystore": "../../Keystore/key.jks",
+            "storePassword": "mitch-97",
+            "alias": "key0",
+            "password" : "mitch-97",
+            "keystoreType": ""
+        }
+    }
+}

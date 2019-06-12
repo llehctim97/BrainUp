@@ -1,0 +1,45 @@
+{
+  "name": "persoco",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
+    "lite": "lite-server",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/angular/angular.io/blob/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "@angular/common": "~2.4.6",
+    "@angular/compiler": "~2.4.6",
+    "@angular/compiler-cli": "~2.4.6",
+    "@angular/core": "~2.4.6",
+    "@angular/forms": "~2.4.6",
+    "@angular/http": "~2.4.6",
+    "@angular/platform-browser": "~2.4.6",
+    "@angular/platform-browser-dynamic": "~2.4.6",
+    "@angular/router": "~3.4.6",
+    "@angular/upgrade": "~2.4.6",
+    "angular-in-memory-web-api": "~0.2.4",
+    "angular2-onsenui": "1.0.0-rc.5",
+    "core-js": "^2.4.1",
+    "howler": "^2.0.2",
+    "ng-connection-service": "^1.0.4",
+    "onsenui": "2.1.0",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "5.0.1",
+    "systemjs": "0.19.39",
+    "typescript": "^3.3.3333",
+    "zone.js": "^0.7.6"
+  },
+  "devDependencies": {
+    "@types/core-js": "^0.9.35",
+    "@types/node": "^6.0.45",
+    "concurrently": "^3.0.0",
+    "lite-server": "^2.4.0"
+  }
+}

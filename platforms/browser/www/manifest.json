@@ -1,0 +1,12 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "BrainUp",
+  "short_name": "BrainUp",
+  "version": "nl.mitchellansems.BrainUp",
+  "description": "A simple application to train the brain.",
+  "author": "Mitchell Ansems",
+  "icons": [],
+  "orientation": "portrait",
+  "start_url": "index.html"
+}

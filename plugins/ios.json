@@ -1,0 +1,24 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "nl.mitchellansems.BrainUp"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "nl.mitchellansems.BrainUp"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "nl.mitchellansems.BrainUp"
+    },
+    "onesignal-cordova-plugin": {
+      "PACKAGE_NAME": "nl.mitchellansems.BrainUp"
+    }
+  },
+  "dependent_plugins": {}
+}

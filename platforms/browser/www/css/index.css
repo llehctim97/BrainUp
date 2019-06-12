@@ -1,0 +1,303 @@
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 999; /* Specify a stack order in case you're using a different order for other elements */
+}
+
+.select-input{
+	height: 50px !important;
+}
+
+.intro_text, .choice_container, .demographics, .buttons {
+	padding: 0px 10% 0px 10%;
+}
+
+.buttons {
+	text-align: center;
+}
+
+.input_label {
+	margin-bottom: 16px;
+}
+
+.radio-button__input, .choice_item, .button {
+	cursor: pointer !important;
+}
+
+.item_selected {
+	background-color: #DCEDEC;
+}
+
+.choice_container {
+	display: flex;
+	justify-content: center;
+	margin-top: 8px;
+}
+
+.choice_container .choice_item:not(:last-child) {
+	margin-right: 8px;
+}
+
+.choice_container .choice_item {
+	width: calc(100%/3);
+	border: 1px solid #e8e8e8;
+	padding: 16px;
+	text-align: center;
+}
+
+.choice_container .choice_item_4 {
+	width: calc(100%/4);
+}
+
+.green {
+	color: #009688;
+}
+
+.choice_item_profession {
+	padding: 0px !important;
+	width: calc(100%/4) !important;
+}
+
+.face_not_absolute {
+	position: static !important;
+}
+
+.coach_talking {
+	background-color: #DCEDEC;
+	height: 60%;
+	margin-top: -16px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.coach_talking img {
+	height: 80%;
+}
+
+.glasses_timepressure_male {
+	top: 24% !important;
+}
+
+.glasses_timepressure_female {
+	left: 1.1% !important;
+}
+
+.ons-progress-bar--toolbar {
+	float: left;
+	height: 8px;
+}
+
+.toolbar_percentage {
+	font-size: 10pt;	
+}
+
+.toolbar_progress {
+	flex: 1;
+	height: 8px;
+	margin-top: 23px;
+	background-color: #ffffff;
+	margin-left: 16px;
+	margin-right: 16px;
+}
+
+.toolbar_progress_fill {
+	float: left;
+	height: 100%;
+	background-color: #00695C;
+}
+
+.coach_talking_inner {
+	width: 35%;
+	/*margin-left: 32.5%;*/
+	margin-bottom: -4px;
+}
+
+.coach_wrapper_noshirt {
+	width: 100% !important;
+	margin-left: 0% !important;
+}
+
+.coach_container {
+	position: fixed;
+	bottom: -4px; /* @TODO: leave this out when no shirt? */
+	width: 30%;
+}
+
+coach img {
+	width: 100%;
+}
+
+.coach_wrapper {
+	/*position: relative;
+	margin-top: -100%;*/
+	position: relative; 
+	top: 0px; 
+	left: 0px; 
+	width: 50%;
+	margin-left: 25%;	
+}
+
+.coach_base {
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.coach_glasses {
+	width: 100%;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+#coach_shirt {
+	position: absolute; 
+	top: 18.8%; 
+	width: 100%; 
+	z-index: 4;	
+}
+
+.coach_shirt_nopants {
+	top: 43.5% !important;
+}
+
+.likert_content, .choice_container_2 {
+	margin-left: 30%;
+	margin-right: 10%;
+}
+
+.yesNoButton{
+	position: absolute;
+	margin-left: 50%;
+	margin-right: 50%;
+}
+.choice_container_2 {
+	padding: 0px;	
+}
+
+.intro_text_margin {
+	margin-left: 20%;
+}
+
+.next_button_spacing {
+	margin-left: 20%;
+}
+
+.likert_intro {
+	margin-top: 10%;
+	display: flex;
+}
+
+.likert_item{
+	vertical-align: middle !important;
+}
+
+.likert_scale {
+		display: flex;
+    	flex-direction: column;
+    	margin-top: 32px;
+}
+
+ .ons-input input{
+    font-size: 24px !important;
+  }
+
+.likert_text {
+	width: 84px;
+	text-align: center;
+}
+
+.likert_scale .likert_text:first-child {
+	background-color: #ff0000;
+	color: #ff0000;
+}
+
+h1 {
+	font-size: 23pt !important;
+	color: #009688;
+	text-transform: uppercase;
+	margin-bottom: 8px;
+}
+
+.nback_compartment_selected {
+	background-color: #f2b986;
+}
+
+.nback_button_pressed {
+	background-color: #9bc3ea !important;
+}
+
+/*.navigation-bar--material {
+	background-color: #DCEDEC !important;
+}*/
+
+@media only screen and (max-width: 756px) {
+  .coach_container{
+  	width: 40%;
+  	right: 0;
+  }
+
+  .coach_container_middle{
+  	position: relative;
+  	transform: translateX(30%);
+    width: 60%;
+  }
+
+  .coach_talking{
+  	height: 40%;
+  }
+
+  .choice_item_profession .coach_wrapper {
+  	display: none;
+  }
+
+  .intro_text_margin {
+    margin-left: 0;
+  }
+  .likert_content, .choice_container_2 {
+    margin-left: 10%;
+    margin-right: 10%;
+   }
+	.likert_text {
+    margin: 1%;
+    text-align: center;
+	}
+	
+	.likert_texts {
+    font-size: 12px;
+	}
+
+	.likert_scale {
+		display: flex;
+    	flex-direction: column;
+	}
+
+	.likert_item {
+		vertical-align: middle !important;
+		font-size: 14px;
+		padding: 2px;
+	}
+
+
+	.next_button_spacing {
+		margin-left: 0;
+    	position: absolute;
+    	padding-bottom: 2%;
+	}
+
+	.profession_button{
+		padding: 8px;
+		font-size: 14px;
+	}
+
+
+}
